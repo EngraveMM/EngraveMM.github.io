@@ -5,14 +5,19 @@
   
 
   
-  <title>Hexo</title>
+  <title>Java学习笔记(一) | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="1.两个字符串进行比较时，优先采用常量调用方法的方式进行比较;2.对于一个方法来说，如果有返回值，那么源数据可能不变;3.map接口的toString()方法的输出格式是{}，而不是[];4.学习一个新的体系的时候，一定要从顶层接口开始学习。掌握顶层接口所具有的所有抽象方法，因为任何继承自他和他子类的子类都必须要实现他的方法，然后针对底层的类，找出其和父类以及祖宗类相比较的特有方法。5.Strin">
+<meta name="keywords" content="learn">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Java学习笔记(一)">
+<meta property="og:url" content="http://yoursite.com/2018/03/03/Java学习笔记-一/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="1.两个字符串进行比较时，优先采用常量调用方法的方式进行比较;2.对于一个方法来说，如果有返回值，那么源数据可能不变;3.map接口的toString()方法的输出格式是{}，而不是[];4.学习一个新的体系的时候，一定要从顶层接口开始学习。掌握顶层接口所具有的所有抽象方法，因为任何继承自他和他子类的子类都必须要实现他的方法，然后针对底层的类，找出其和父类以及祖宗类相比较的特有方法。5.Strin">
+<meta property="og:updated_time" content="2018-03-03T08:45:35.958Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="Java学习笔记(一)">
+<meta name="twitter:description" content="1.两个字符串进行比较时，优先采用常量调用方法的方式进行比较;2.对于一个方法来说，如果有返回值，那么源数据可能不变;3.map接口的toString()方法的输出格式是{}，而不是[];4.学习一个新的体系的时候，一定要从顶层接口开始学习。掌握顶层接口所具有的所有抽象方法，因为任何继承自他和他子类的子类都必须要实现他的方法，然后针对底层的类，找出其和父类以及祖宗类相比较的特有方法。5.Strin">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -59,9 +64,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-Java学习笔记-一" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-Java学习笔记-一" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2018/03/03/Java学习笔记-一/" class="article-date">
   <time datetime="2018-03-03T08:22:16.000Z" itemprop="datePublished">2018-03-03</time>
@@ -74,8 +77,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/03/03/Java学习笔记-一/">Java学习笔记(一)</a>
+    <h1 class="article-title" itemprop="name">
+      Java学习笔记(一)
     </h1>
   
 
@@ -98,56 +101,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/03/03/hello-world/" class="article-date">
-  <time datetime="2018-03-03T06:07:44.109Z" itemprop="datePublished">2018-03-03</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/03/03/hello-world/">Hello World</a>
-    </h1>
+    <a href="/2018/03/03/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Älter</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/03/03/hello-world/" data-id="cjeb4fxuw0000ewkzt9nlx20m" class="article-share-link">Teilen</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-
 
 </section>
         
